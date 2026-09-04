@@ -1,0 +1,20 @@
+name: Validate Repository
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify required files exist
+        run: |
+          test -f "docs/PROG PART 1.pdf" || (echo "PDF missing" && exit 1)
+          test -f "docs/RaceDay_Database_Script.sql" || (echo "SQL script missing" && exit 1)
+          echo "All required files are present!"
