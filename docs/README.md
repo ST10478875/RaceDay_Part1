@@ -9,8 +9,7 @@ RaceDay is a full-stack web application designed for managing South African road
 All core architecture and planning documentation can be found inside the `/docs` folder:
 
 - `docs/RaceDay_Database_Script.sql` - Complete SQL Server script with relational schema, FK constraints, and seed data.
-- `docs/ERD_Diagram.png` - Visual Entity Relationship Diagram matching the 6 database entities.
-- `docs/API_Endpoint_Plan.pdf` - Comprehensive RESTful API endpoint specification matrix.
+- `docs/PROG PART 1.pdf` - Complete documentation and planning specification.
 
 ---
 
@@ -20,6 +19,13 @@ All core architecture and planning documentation can be found inside the `/docs`
 * **Participant**: Registers an account, explores upcoming events, enrols into specific race categories, and views personal race results.
 
 ---
+
+## CI/CD Build Status
+
+![Build Status](docs/build-status.png)
+
+---![Uploading image.png…]()
+
 
 ## Database Execution Setup (SSMS)
 
@@ -31,5 +37,4 @@ All core architecture and planning documentation can be found inside the `/docs`
 
 ## Technical Walkthrough Demonstration
 
-[Watch Part 1 Video Walkthrough on YouTube]
-                                             https://youtu.be/Z6tKdqic7qo
+[Watch Part 1 Video Walkthrough on YouTube](https://youtu.be/Z6tKdqic7qo)
